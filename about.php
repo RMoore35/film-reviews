@@ -1,4 +1,4 @@
-<?php include 'header.php' ?>
+<?php include 'header.html' ?>
   <div class="main">
       <h2><b>About me</b></h2><br>
         <p>I obviously love movies and watch as many as I can. I love mixing it up and digging into genres
@@ -10,4 +10,4 @@
         <p>If you have any questions or feedback, please feel free to head over to my contact page and I’ll get back with you as soon as I can.</p><br>
         <p>Cheers!</p><br>
     </div>
-<?php include 'footer.php' ?>
+<?php include 'footer.html' ?>

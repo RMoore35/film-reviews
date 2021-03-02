@@ -1,4 +1,4 @@
-<?php include 'header.php' ?>
+<?php include 'header.html' ?>
   <div class="main">
     <h2><b>Favorite Actresses</b></h2>
     <h4>These are currently my favorite actresses. Obviously subject to change.</h4>
@@ -29,4 +29,4 @@
       <?php $lines = file('actors.txt'); echo $lines[2];?>
     </div>
     </div>
-<?php include 'footer.php' ?>
+<?php include 'footer.html' ?>
