@@ -8,6 +8,6 @@ I use a python script to parse through my Letterboxd profile RSS feed but hopefu
 
 I welcome any feedback on this project. I had a lot of fun with it and I look forward to more projects like it in the future.
 
-** As of March 2nd, 2021, this site is now hosted on Netlify at: https://nervous-raman-bfd69b.netlify.app/index.html
+** As of March 2nd, 2021, this site is now hosted on Netlify at: https://nervous-raman-bfd69b.netlify.app/
 
 Please forgive the auto-generated url. Hopefully I can host this with a more descript domain name in the future.
