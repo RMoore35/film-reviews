@@ -1,4 +1,4 @@
-<?php include 'header.html' ?>
+<?php include 'header.php' ?>
   <div class="main">
     <h2><b>Favorite Actresses</b></h2>
     <h4>These are currently my favorite actresses. Obviously subject to change.</h4>

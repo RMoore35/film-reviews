@@ -1,4 +1,4 @@
-<?php include 'header.html' ?>
+<?php include 'header.php' ?>
   <div class="main">
       <h2><b>About me</b></h2><br>
         <p>I obviously love movies and watch as many as I can. I love mixing it up and digging into genres

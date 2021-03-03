@@ -1,4 +1,4 @@
-<?php include 'header.html' ?>
+<?php include 'header.php' ?>
 <div class="row">
   <div class="main">
     <h3><b>Welcome!</b></h3>

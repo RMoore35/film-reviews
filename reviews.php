@@ -1,4 +1,4 @@
-<?php include 'header.html' ?>
+<?php include 'header.php' ?>
   <div class="main">
       <h2><b>Most Recent Reviews</b></h2>
       <?php $lines = file('top3.txt'); foreach($lines as $line){echo $line;}?><br>
