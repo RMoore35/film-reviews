@@ -29,6 +29,7 @@
   }
    ?>
   <title><?php echo $title; ?></title>
+  <link rel="icon" href="/images/favicon.png" />
 </head>
 <body>
 <div class="header">
