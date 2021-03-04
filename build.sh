@@ -1,6 +1,5 @@
 #!/bin/sh
 # build.sh - PHP to static file generator
-#DEST="./public_html/"
 
 php index.php > index.html
 php reviews.php > reviews.html
