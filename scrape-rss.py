@@ -1,6 +1,7 @@
 # Imports
 from bs4 import BeautifulSoup as bs
 import feedparser
+import re
 
 # Open txt file for writing
 file1 = open("top3.txt","w")
@@ -21,8 +22,11 @@ for key in feed.entries[0:3]:
     for tag in tags[1:]:
         lst.append(tag.string)
     s = ' '.join(map(str, lst)).rstrip().replace("\'", "")
-    new_title = key.title.split(",")
-    new_str = "<h3><a href='" + key.link + "' target='_blank'>" + new_title[0] + "</a></h3>" + "<p>" + s + "</p>"
+    new_title = re.split(",\s[0-9]", key.title)
+    if len(tags) >= 10:
+        new_str = "<h3><a href='" + key.link + "' target='_blank'>" + new_title[0] + "</a></h3>" + "<p>" + s + " (cont.)...</p>"
+    else:
+        new_str = "<h3><a href='" + key.link + "' target='_blank'>" + new_title[0] + "</a></h3>" + "<p>" + s + "</p>"
     file1.write(new_str + "\n")
 
 # Actresses
