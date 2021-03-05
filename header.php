@@ -26,6 +26,10 @@
     case 'blog.php':
       $title= 'Blog | Moore Films';
       break;
+
+    case 'contact.php':
+      $title= 'Contact | Moore Films';
+      break;
   }
    ?>
   <title><?php echo $title; ?></title>
@@ -42,6 +46,7 @@
   <button name="button"><a href="/lists.html">Lists</a></button>
   <button name="button"><a href="/blog.html">Blog</a></button>
   <button name="button"><a href="/about.html">About</a></button>
+  <button name="button"><a href="/contact.html">Contact</a></button>
   <button name="button"><a href="https://letterboxd.com/RMoore35/watchlist/" target="_blank">Watchlist</a></button>
   <button name="button"><a href="https://github.com/RMoore35/film-reviews" target="_blank">Github</a></button>
 
