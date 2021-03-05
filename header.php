@@ -48,6 +48,4 @@
   <button name="button"><a href="/about.html">About</a></button>
   <button name="button"><a href="/contact.html">Contact</a></button>
   <button name="button"><a href="https://letterboxd.com/RMoore35/watchlist/" target="_blank">Watchlist</a></button>
-  <button name="button"><a href="https://github.com/RMoore35/film-reviews" target="_blank">Github</a></button>
-
 </div>
