@@ -134,3 +134,7 @@ ul#recent-list li{
   text-align: center;
   background: #ddd;
 }
+
+.footer a {
+  color: black;
+}
