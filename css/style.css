@@ -95,6 +95,15 @@ h3 {
   margin: 0 auto;
 }
 
+.main-post {
+  background-color: #5D6165;
+  min-height: 100vh;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .col-container {
     display: flex;
     width: 100%;
