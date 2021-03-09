@@ -5,13 +5,13 @@
   </div>
   <div class="col-container">
     <div class="column-1">
-      <?php $lines = file('/text-files/actresses.txt'); echo $lines[0];?>
+      <?php $lines = file('./text-files/actresses.txt'); echo $lines[0];?>
     </div>
     <div class="column-1">
-      <?php $lines = file('/text-files/actresses.txt'); echo $lines[1];?>
+      <?php $lines = file('./text-files/actresses.txt'); echo $lines[1];?>
     </div>
     <div class="column-1">
-      <?php $lines = file('/text-files/actresses.txt'); echo $lines[2];?>
+      <?php $lines = file('./text-files/actresses.txt'); echo $lines[2];?>
     </div>
     </div>
   <div class="main-2">
@@ -20,13 +20,13 @@
   </div>
   <div class="col-container">
     <div class="column-2">
-      <?php $lines = file('/text-files/actors.txt'); echo $lines[0];?>
+      <?php $lines = file('./text-files/actors.txt'); echo $lines[0];?>
     </div>
     <div class="column-2">
-      <?php $lines = file('/text-files/actors.txt'); echo $lines[1];?>
+      <?php $lines = file('./text-files/actors.txt'); echo $lines[1];?>
     </div>
     <div class="column-2">
-      <?php $lines = file('/text-files/actors.txt'); echo $lines[2];?>
+      <?php $lines = file('./text-files/actors.txt'); echo $lines[2];?>
     </div>
     </div>
 <?php include 'footer.html' ?>

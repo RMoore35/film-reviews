@@ -1,7 +1,7 @@
 <?php include 'header.php' ?>
   <div class="main">
       <h2><b>Most Recent Reviews</b></h2>
-      <?php $lines = file('/text-files/top3.txt'); foreach($lines as $line){echo $line;}?><br>
+      <?php $lines = file('./text-files/top3.txt'); foreach($lines as $line){echo $line;}?><br>
   </div>
   <div class="main-2">
     <h3>All Reviews</h3>
