@@ -13,17 +13,6 @@ body {
   font-size: 40px;
 }
 
-.side {
-  text-align: center;
-}
-.side a {
-  color: black;
-}
-
-.side button {
-  margin: 5px;
-}
-
 a {
   color: white;
 }
@@ -69,6 +58,15 @@ h3 {
   flex: 10%;
   background-color: #f1f1f1;
   padding: 20px;
+  text-align: center;
+}
+
+.side a {
+  color: black;
+}
+
+.side button {
+  margin: 5px;
 }
 
 .main {
