@@ -7,5 +7,6 @@
         <h2><a href="/posts/first-post.html">The Film World in 2021</a></h2>
         <h5>March 8th, 2021</h5>
       </div>
+      <br><br><br><br>
   </div>
 <?php include 'footer.html' ?>
