@@ -111,18 +111,6 @@ h3 {
   width: calc(100% / 3);
 }
 
-ul#recent-list li{
-  margin-bottom: 20px;
-  margin-left: 30px;
-  list-style: none;
-  text-align: left
-}
-
-.col-container ol{
-  margin-left: 50px;
-  line-height: 25px;
-}
-
 .footer {
   clear: both;
   padding: 20px;
