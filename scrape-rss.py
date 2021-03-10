@@ -4,9 +4,9 @@ import feedparser
 import re
 
 # Open txt file for writing
-file1 = open("../text-files.top3.txt","w")
-file2 = open("../text-files.actresses.txt","w")
-file3 = open("../text-files.actors.txt","w")
+file1 = open("./text-files/top3.txt","w")
+file2 = open("./text-files/actresses.txt","w")
+file3 = open("./text-files/actors.txt","w")
 
 # Use feedparser to prepare rss for parsing
 feed = feedparser.parse('https://letterboxd.com/rmoore35/rss/')
