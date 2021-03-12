@@ -24,12 +24,12 @@
     <hr>
     <h3><b>Tags</b></h3>
     <p>
-      <button name="button-side"><a href="/tags/tags.html#action">Action</a></button>
-      <button name="button-side"><a href="/tags/tags.html#adventure">Adventure</a></button>
-      <button name="button-side"><a href="/tags/tags.html#comedy">Comedy</a></button>
-      <button name="buttons-side"><a href="/tags/tags.html#drama">Drama</a></button>
-      <button name="buttons-side"><a href="/tags/tags.html#romance">Romance</a></button>
-      <button name="buttons-side"><a href="/tags/tags.html#thriller">Thriller</a></button>
+      <button name="button"><a href="/tags/tags.html#action">Action</a></button>
+      <button name="button"><a href="/tags/tags.html#adventure">Adventure</a></button>
+      <button name="button"><a href="/tags/tags.html#comedy">Comedy</a></button>
+      <button name="button"><a href="/tags/tags.html#drama">Drama</a></button>
+      <button name="button"><a href="/tags/tags.html#romance">Romance</a></button>
+      <button name="button"><a href="/tags/tags.html#thriller">Thriller</a></button>
     </p><br>
   </div>
 </div>
