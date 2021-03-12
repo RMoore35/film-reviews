@@ -65,8 +65,9 @@ h3 {
   color: black;
 }
 
-.side button {
+.side button-side {
   margin: 1%;
+  text-decoration: none;
 }
 
 .main {
