@@ -2,14 +2,6 @@ body {
     margin: 0;
 }
 
-a {
-  color: white;
-}
-
-h3 {
-  text-align: center;
-}
-
 .row-header {
   display: flex;
   flex-wrap: wrap;
@@ -52,18 +44,25 @@ h3 {
   box-sizing: border-box;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 .side {
   flex: 50%;
-  background-color: #f1f1f1;
+  background-color: #e0e7e7;
   text-align: center;
 }
 
 .side a {
-  color: black;
+  text-decoration: none;
+  color: #083b66;
 }
 
-.side button {
-  margin: 1%;
+.side h3 {
+  color: #083b66;
 }
 
 .side img {
@@ -74,12 +73,23 @@ h3 {
 .main {
   flex: 50%;
   background-color: #e0e7e7;
-  color: white;
-  padding: 20px;
-  text-align: center;
+  padding-left: 5%;
   margin: 0 auto;
 }
 
+.main h1 {
+  color: #083b66;
+  text-align: left;
+  font: 60px Verdana, Helvetica, sans-serif;
+  font-size-adjust: 0.9;
+}
+
+.main-3 {
+  width: 50%;
+  background-color: #e0e7e7;
+}
+
+/* Use for lists page
 .main-2 {
   clear: both;
   flex: 70%;
@@ -88,7 +98,7 @@ h3 {
   padding: 20px;
   text-align: center;
   margin: 0 auto;
-}
+}*/
 
 .col-container {
     display: flex;
@@ -121,4 +131,21 @@ h3 {
 
 .footer a {
   color: white;
+}
+
+/* Extras
+a {
+  color: white;
+}
+
+h3 {
+  text-align: center;
+}
+
+.side a {
+  color: black;
+}
+
+.side button {
+  margin: 1%;
 }

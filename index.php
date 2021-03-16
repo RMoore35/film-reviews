@@ -1,7 +1,7 @@
 <?php include 'header.php' ?>
 <div class="row">
   <div class="main">
-
+    <h1>The place for all things film</h1>
     <!--
     <h3><b>Welcome!</b></h3>
     <p>Here you will find my favorite films, favorite actors/actresses, the movies I want to watch (watchlist),
@@ -36,6 +36,21 @@
       <button name="button"><a href="/tags/tags.html#thriller">Thriller</a></button>
     </p><br>-->
 
+  </div>
+</div>
+<div class="row">
+  <div class="main-3">
+  </div>
+  <div class="side">
+    <h3><b>Tags</b></h3>
+    <p>
+      <button name="button"><a href="/tags/tags.html#action">Action</a></button>
+      <button name="button"><a href="/tags/tags.html#adventure">Adventure</a></button>
+      <button name="button"><a href="/tags/tags.html#comedy">Comedy</a></button>
+      <button name="button"><a href="/tags/tags.html#drama">Drama</a></button>
+      <button name="button"><a href="/tags/tags.html#romance">Romance</a></button>
+      <button name="button"><a href="/tags/tags.html#thriller">Thriller</a></button>
+    </p>
   </div>
 </div>
 <?php include 'footer.html' ?>
