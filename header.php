@@ -37,7 +37,7 @@
 </head>
 <body>
 <div class="header">
-  <h1>Moore Films</h1>
+  <img src="/images/logo.png">
   <p>A place for reviews and all other things film</p>
 </div>
 <div class="navbar">
