@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #e0e7e7;
 }
 
 .row-header {
@@ -45,9 +46,11 @@ body {
 }
 
 .row {
+  clear: both;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  height: auto;
 }
 
 .side {
@@ -61,20 +64,16 @@ body {
   color: #083b66;
 }
 
-.side h3 {
-  color: #083b66;
-}
-
 .side img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .main {
   flex: 50%;
   background-color: #e0e7e7;
   padding-left: 5%;
-  margin: 0 auto;
+  height: auto;
 }
 
 .main h1 {
@@ -84,11 +83,51 @@ body {
   font-size-adjust: 0.9;
 }
 
-.main-3 {
-  width: 50%;
-  background-color: #e0e7e7;
+.main-2 {
+  clear: both;
+  padding: 2% 2% 2% 5%;
+  width: 100%;
+  background-color: #083b66;
+  text-align: left;
+  color: white;
 }
 
+.main-2 h1 {
+  font: 60px Verdana, Helvetica, sans-serif;
+  font-size-adjust: 0.9;
+}
+
+.main-2 p {
+  font: 30px Verdana, Helvetica, sans-serif;
+  font-size-adjust: 0.9;
+}
+
+.main-2 a {
+  color: white;
+}
+
+.main-3 {
+  text-align:center;
+  width:90%;
+  max-width:50rem;
+  margin:1rem auto;
+  background-color: #e0e7e7;
+  color: black;
+}
+
+.main-3 h1 {
+  font: 60px Verdana, Helvetica, sans-serif;
+  font-size-adjust: 0.9;
+  color: #083b66;
+}
+
+.main-3 p {
+  font: 15px Verdana, Helvetica, sans-serif;
+  font-size-adjust: 0.9:
+}
+.main-3 a {
+  color: black;
+}
 /* Use for lists page
 .main-2 {
   clear: both;
@@ -148,4 +187,9 @@ h3 {
 
 .side button {
   margin: 1%;
+}
+
+.main-3 {
+  width: 50%;
+  background-color: #e0e7e7;
 }
