@@ -36,16 +36,17 @@
   <link rel="icon" href="/images/favicon.png" />
 </head>
 <body>
-<div class="header">
-  <img src="/images/logo.png">
-  <p>A place for reviews and all other things film</p>
-</div>
-<div class="navbar">
-  <button name="button"><a href="/index.html">Home</a></button>
-  <button name="button"><a href="/reviews.html">Reviews</a></button>
-  <button name="button"><a href="/lists.html">Lists</a></button>
-  <button name="button"><a href="/blog.html">Blog</a></button>
-  <button name="button"><a href="/about.html">About</a></button>
-  <button name="button"><a href="/contact.html">Contact</a></button>
-  <button name="button"><a href="https://letterboxd.com/RMoore35/watchlist/" target="_blank">Watchlist</a></button>
+<div class="row-header">
+  <div class="header">
+    <img src="/images/logo.png">
+  </div>
+  <div class="navbar">
+    <button name="button"><a href="/index.html">Home</a></button>
+    <button name="button"><a href="/reviews.html">Reviews</a></button>
+    <button name="button"><a href="/lists.html">Lists</a></button>
+    <button name="button"><a href="/blog.html">Blog</a></button>
+    <button name="button"><a href="/about.html">About</a></button>
+    <button name="button"><a href="/contact.html">Contact</a></button>
+    <button name="button"><a href="https://letterboxd.com/RMoore35/watchlist/" target="_blank">Watchlist</a></button>
+  </div>
 </div>
