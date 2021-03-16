@@ -52,15 +52,9 @@ h3 {
   box-sizing: border-box;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .side {
-  flex: 10%;
+  flex: 50%;
   background-color: #f1f1f1;
-  padding: 20px;
   text-align: center;
 }
 
@@ -72,9 +66,14 @@ h3 {
   margin: 1%;
 }
 
+.side img {
+  width: 100%;
+  height: auto;
+}
+
 .main {
-  flex: 70%;
-  background-color: #5D6165;
+  flex: 50%;
+  background-color: #e0e7e7;
   color: white;
   padding: 20px;
   text-align: center;
@@ -116,9 +115,10 @@ h3 {
   clear: both;
   padding: 20px;
   text-align: center;
-  background: #e0e7e7;
+  color: white;
+  background: #083b66;
 }
 
 .footer a {
-  color: black;
+  color: white;
 }
