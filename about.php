@@ -1,6 +1,6 @@
 <?php include 'header.php' ?>
-  <div class="main">
-      <h2><b>About me</b></h2><br>
+  <div class="main-4">
+      <h2><b>About me</b></h2>
         <p>I obviously love movies and watch as many as I can. I love mixing it up and digging into genres
         that I haven't spent a lot of time in.</p>
         <p>I like to be active. I love any excuse to stop what I’m doing and go outside.</p>
