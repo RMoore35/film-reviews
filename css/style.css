@@ -224,8 +224,7 @@ body {
 .column-1 {
   float: left;
   background-color: #083b66;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 0% 5% 1% 5%;
   color: white;
   width: 33.33%;
   width: calc(100% / 3);
@@ -238,8 +237,7 @@ body {
 .column-2 {
   float: left;
   background-color: #e0e7e7;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 0% 5% 1% 5%;
   color: #083b66;
   width: 33.33%;
   width: calc(100% / 3);
@@ -256,10 +254,10 @@ body {
 
 .footer {
   clear: both;
-  padding: 20px;
+  padding: 1% 0 1% 0;
   text-align: center;
   color: black;
-  background: #e0e7e7;
+  background: #FBFAF5;
 }
 
 .footer a {
