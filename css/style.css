@@ -150,6 +150,7 @@ body {
 }
 
 .main-3 {
+  clear: both;
   text-align:center;
   width:90%;
   max-width:50rem;
@@ -175,6 +176,7 @@ body {
 }
 
 .main-4 {
+  clear: both;
   text-align: center;
   width: 100%;
   padding-top: 1%;
@@ -189,36 +191,67 @@ body {
   color: white;
 }
 
-/* Use for lists page
-.main-2 {
+.main-5 {
   clear: both;
   flex: 70%;
-  background-color: #1abc9c;
+  background-color: #083b66;
   color: white;
   padding: 20px;
   text-align: center;
   margin: 0 auto;
-}*/
+}
+
+.main-6 {
+  clear: both;
+  flex: 70%;
+  background-color: #e0e7e7;
+  color: #083b66;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
 
 .col-container {
     display: flex;
     width: 100%;
 }
 
+.col-container h3 {
+  text-align: center;
+}
+
 .column-1 {
   float: left;
-  background-color: #5D6165;
+  background-color: #083b66;
+  padding-left: 5%;
+  padding-right: 5%;
   color: white;
   width: 33.33%;
   width: calc(100% / 3);
 }
 
+.column-1 a {
+  color: white;
+}
+
 .column-2 {
   float: left;
-  background-color: #1abc9c;
-  color: white;
+  background-color: #e0e7e7;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #083b66;
   width: 33.33%;
   width: calc(100% / 3);
+}
+
+.column-2 a {
+  color: #083b66;
+}
+
+.hr {
+  width:50%;
+  color: black;
 }
 
 .footer {
