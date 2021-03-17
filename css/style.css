@@ -270,15 +270,15 @@ body {
 
 /* Blog Posts */
 /* Also used for tags page*/
-.blog-tags {
+.blog-body {
   background-color: #e0e7e7;
 }
 
-.blog-tags a {
+.blog-body a {
   color: black;
 }
 
-.navbar-blog-tags a {
+.navbar-blog a {
   margin: auto;
   color:black;
   padding: 10px;
@@ -291,21 +291,32 @@ body {
   margin: 1% 0 0 1%;
 }
 
-.blog-wrapper{
+.blog-wrapper {
   text-align:center;
-  width:90%;
+  width:80%;
   max-width:50rem;
   margin:1rem auto;
 }
 
-.blog-header{
-
+.blog-header {
+  padding: 1% 0 1% 0;
+  border-bottom: 1px solid;
+  border-width: 80%;
+  border-top-color: black;
 }
 
-.blog-main{
+.blog-header p {
+  text-align: left;
+}
+
+.blog-main {
   text-align:left;
+  padding: 1% 0 1% 0
 }
 
-.blog-footer{
-
+.blog-footer {
+  padding: 1% 0 1% 0;
+  border-top: 1px solid;
+  border-width: 80%;
+  border-top-color: black;
 }
