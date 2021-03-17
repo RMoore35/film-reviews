@@ -257,7 +257,9 @@ body {
   padding: 1% 0 1% 0;
   text-align: center;
   color: black;
-  background: #FBFAF5;
+  background: #e0e7e7;
+  border-top: 1px solid;
+  border-top-color: #083b66;
 }
 
 .footer a {
