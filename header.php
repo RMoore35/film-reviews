@@ -26,10 +26,6 @@
     case 'contact.php':
       $title= 'Contact | Moore Films';
       break;
-
-    case 'tags/tags.html':
-      $title= 'Tags | Moore Films';
-      break;
   }
    ?>
   <title><?php echo $title; ?></title>
