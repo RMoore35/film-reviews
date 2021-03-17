@@ -26,6 +26,10 @@
     case 'contact.php':
       $title= 'Contact | Moore Films';
       break;
+
+    case 'tags/tags.html':
+      $title= 'Tags | Moore Films';
+      break;
   }
    ?>
   <title><?php echo $title; ?></title>
@@ -43,5 +47,16 @@
     <button name="button"><a href="/about.html">About</a></button>
     <button name="button"><a href="/contact.html">Contact</a></button>
     <button name="button"><a href="https://letterboxd.com/RMoore35/watchlist/" target="_blank">Watchlist</a></button>
+    <div class="dropdown">
+      <button class="dropbtn">Tags</button>
+      <div class="dropdown-content">
+        <a href="/tags/tags.html#action">Action</a>
+        <a href="/tags/tags.html#adventure">Adventure</a>
+        <a href="/tags/tags.html#comedy">Comedy</a>
+        <a href="/tags/tags.html#drama">Drama</a>
+        <a href="/tags/tags.html#romance">Romance</a>
+        <a href="/tags/tags.html#thriller">Thriller</a>
+      </div>
+    </div>
   </div>
 </div>

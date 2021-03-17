@@ -24,33 +24,17 @@
 <div class="main-3">
   <h1>Latest Reviews</h1>
   <p><?php $lines = file('top3.txt'); foreach($lines as $line){echo $line;}?></p><br>
-</div>
-<div class="main-3">
   <p>*****The rest of my reviews can be found on my
-    <a href="https://letterboxd.com/RMoore35/" target="_blank">Letterboxd profile.</a>*****</p><br>
+    <a href="https://letterboxd.com/RMoore35/" target="_blank">Letterboxd profile.</a>*****</p>
 </div>
-<div class="row-2">
-  <div class="main-4">
-    <h3><b>Top Four Films</b></h3>
-    <a href="https://www.themoviedb.org/movie/9361-the-last-of-the-mohicans" target="_blank">The Last of the Mohicans</a>
-    <br><br>
-    <a href="https://www.themoviedb.org/movie/7270-matchstick-men" target="_blank">Matchstick Men</a>
-    <br><br>
-    <a href="https://www.themoviedb.org/movie/97367-the-place-beyond-the-pines" target="_blank">The Place Beyond the Pines</a>
-    <br><br>
-    <a href="https://www.themoviedb.org/movie/642-butch-cassidy-and-the-sundance-kid" target="_blank">Butch Cassidy and the Sundance Kid</a>
-    <br><br>
-  </div>
-  <div class="side-2">
-    <h3><b>Tags</b></h3><br>
-    <p>
-      <button name="button"><a href="/tags/tags.html#action">Action</a></button>
-      <button name="button"><a href="/tags/tags.html#adventure">Adventure</a></button>
-      <button name="button"><a href="/tags/tags.html#comedy">Comedy</a></button><br><br>
-      <button name="button"><a href="/tags/tags.html#drama">Drama</a></button>
-      <button name="button"><a href="/tags/tags.html#romance">Romance</a></button>
-      <button name="button"><a href="/tags/tags.html#thriller">Thriller</a></button>
-    </p>
-  </div>
+<div class="main-4">
+  <h3><b>Top Four Films</b></h3>
+  <a href="https://www.themoviedb.org/movie/9361-the-last-of-the-mohicans" target="_blank">The Last of the Mohicans</a>
+  <br><br>
+  <a href="https://www.themoviedb.org/movie/7270-matchstick-men" target="_blank">Matchstick Men</a>
+  <br><br>
+  <a href="https://www.themoviedb.org/movie/97367-the-place-beyond-the-pines" target="_blank">The Place Beyond the Pines</a>
+  <br><br>
+  <a href="https://www.themoviedb.org/movie/642-butch-cassidy-and-the-sundance-kid" target="_blank">Butch Cassidy and the Sundance Kid</a>
 </div>
 <?php include 'footer.html' ?>
