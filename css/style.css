@@ -1,3 +1,4 @@
+/* Main Site */
 body {
     margin: 0;
     background-color: #e0e7e7;
@@ -39,13 +40,14 @@ body {
     outline: none;
   }
 
-.navbar button:hover {background-color: #e0e7e7}
+.navbar button:hover {
+  background-color: #e0e7e7
+}
 
 * {
   box-sizing: border-box;
 }
 
-/* Dropdown Button */
 .dropbtn {
   background-color: white;
   color: black;
@@ -217,7 +219,6 @@ body {
   margin: 0 auto;
 }
 
-
 .col-container {
     display: flex;
     width: 100%;
@@ -253,11 +254,6 @@ body {
   color: #083b66;
 }
 
-.hr {
-  width:50%;
-  color: black;
-}
-
 .footer {
   clear: both;
   padding: 1% 0 1% 0;
@@ -272,24 +268,21 @@ body {
   color: black;
 }
 
-/* Extras
-a {
-  color: white;
+/* Blog Posts */
+/* Also used for tags page*/
+.blog-tags {
+  background-color: #F8ECC2;
 }
 
-h3 {
-  text-align: center;
+.navbar-blog-tags a {
+  margin: auto;
+  color:black;
+  padding: 10px;
+  text-decoration:none;
 }
 
-.side a {
-  color: black;
-}
-
-.side button {
-  margin: 1%;
-}
-
-.main-3 {
-  width: 50%;
-  background-color: #e0e7e7;
+.homebtn {
+  font-size:20px;
+  border-radius:4px;
+  margin: 1% 0 0 1%;
 }
