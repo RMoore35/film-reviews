@@ -2,6 +2,7 @@
 body {
   margin: 0;
   background-color: #e0e7e7;
+  font-family: TimesNewRoman, Helvetica, sans-serif;
 }
 
 .row-header {
@@ -12,17 +13,16 @@ body {
 
 .header {
   padding-left: 3em;
-  text-align: left;
+  text-align: center;
   background: #e0e7e7;
-  width: 20%;
+  flex: 20%;
 }
 
 .navbar {
   padding-top: 3em;
-  text-align: right;
-  padding-right: 8em;
+  text-align: center;
   background-color: #e0e7e7;
-  width: 80%;
+  flex: 80%;
 }
 
 .navbar a {
@@ -120,15 +120,14 @@ body {
 .main {
   flex: 50%;
   background-color: #e0e7e7;
-  padding-left: 5em;
+  padding-left: 2em;
   height: auto;
 }
 
 .main h1 {
   color: #083b66;
   text-align: left;
-  font: 60px Verdana, Helvetica, sans-serif;
-  font-size-adjust: 0.9;
+  font-size: 60px;
 }
 
 .main-2 {
@@ -141,13 +140,11 @@ body {
 }
 
 .main-2 h1 {
-  font: 60px Verdana, Helvetica, sans-serif;
-  font-size-adjust: 0.9;
+  font-size: 60px;
 }
 
 .main-2 p {
-  font: 30px Verdana, Helvetica, sans-serif;
-  font-size-adjust: 0.9;
+  font-size: 30px;
 }
 
 .main-2 a {
@@ -166,14 +163,12 @@ body {
 }
 
 .main-3 h1 {
-  font: 60px Verdana, Helvetica, sans-serif;
-  font-size-adjust: 0.9;
+  font-size: 60px;
   color: #083b66;
 }
 
 .main-3 p {
-  font: 15px Verdana, Helvetica, sans-serif;
-  font-size-adjust: 0.9:
+  font-size: 15px;
 }
 
 .main-3 a {
@@ -187,18 +182,22 @@ body {
   padding: 1.5em 0 3em 0;
   background-color: #083b66;
   color: white;
-  font: 15px Verdana, Helvetica, sans-serif;
-  font-size-adjust: 0.9:
+  /*font-size-adjust: 0.9:*/
 }
 
 .main-4 h2 {
-  font: 60px Verdana, Helvetica, sans-serif;
-  font-size-adjust: 0.9;
+  font-size: 60px;
+  /*font-size-adjust: 0.9;*/
   color: #e0e7e7;
+}
+
+.main-4 h3 {
+  font-size: 45px;
 }
 
 .main-4 a {
   color: white;
+  font-size: 20px;
 }
 
 .main-5 {
@@ -256,10 +255,19 @@ body {
   color: #083b66;
 }
 
+.card h3 {
+  font-size: 40px;
+}
+
+.card h5 {
+  font-size: 15px;
+}
+
 .footer {
   clear: both;
   padding: 1% 0 1% 0;
   text-align: center;
+  font-size: 15px;
   color: black;
   background: #e0e7e7;
   border-top: 1px solid;
@@ -274,6 +282,7 @@ body {
 /* Also used for tags page*/
 .blog-body {
   background-color: #e0e7e7;
+
 }
 
 .blog-body a {
@@ -285,6 +294,7 @@ body {
   color:black;
   padding: 10px;
   text-decoration:none;
+  font-family: TimesNewRoman, Helvetica, sans-serif;
 }
 
 .homebtn {
