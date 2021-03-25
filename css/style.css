@@ -252,8 +252,12 @@ body {
   color: #083b66;
 }
 
+.card {
+  width: 80%;
+  text-align: left;
+}
 .card h3 {
-  font-size: 40px;
+  font-size: 25px;
 }
 
 .card h5 {
