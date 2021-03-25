@@ -256,12 +256,6 @@ body {
   color: #083b66;
 }
 
-.card {
-  border-top: 1px solid;
-  border-width: 40%;
-  border-top-color: black;
-}
-
 .card h3 {
   font-size: 40px;
 }
