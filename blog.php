@@ -1,8 +1,6 @@
 <?php include 'header.php' ?>
   <div class="main-4">
       <h2><b>Blog</b></h2>
-        <p>This is where I will keep all of my blog posts. I will try to post something at least a few times
-        every month.</p>
       <!--<div class="card">
         <h2><a href="/posts/XXXXX-post.html">INSERT TITLE</a></h2>
         <h5>INSERT DATE</h5>
