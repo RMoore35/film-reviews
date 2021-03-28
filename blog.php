@@ -3,7 +3,7 @@
       <h2><b>Blog</b></h2>
       <!--<div class="card">
         <h2><a href="/posts/XXXXX-post.html">INSERT TITLE</a></h2>
-        <h5>INSERT DATE</h5>
+        <h5>📅 INSERT DATE</h5>
       </div>-->
       <div class="card">
         <h3><a href="/posts/second-post.html">Film Lovers Unite</a></h3>
