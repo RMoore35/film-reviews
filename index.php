@@ -7,20 +7,6 @@
     <img src="/images/stockphoto6.png" >
   </div>
 </div>
-<div class="main-2">
-  <b><h1>Welcome to my site!</h1></b>
-    <p>Here you will find my favorite films, favorite actors/actresses,
-      as well as a little about myself.</p>
-    <p>You can find all of the films I want to watch over on my
-      <a href="https://letterboxd.com/RMoore35/watchlist/" target="_blank">Letterboxd profile.
-      </a></p><br><br>
-  <h1>Some Thoughts</h1>
-    <p>I love watching movies. Ever since I was young, I remember fondly getting lost in an hour or
-      two of a story. I love the creativity, the diversity of thought, and the almost endless possibilities.</p>
-    <p>I'm not very picky. I'll watch almost anything. There have only been a few films that I haven't
-      been able to finish, for various reasons. I hope you find a little bit of joy,
-      heartache, and at the very least, an escape from the present.</p>
-</div>
 <div class="main-3">
   <h1>Latest Reviews</h1>
   <p><?php $lines = file('top3.txt'); foreach($lines as $line){echo $line;}?></p><br>
