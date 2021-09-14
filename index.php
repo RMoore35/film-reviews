@@ -1,12 +1,4 @@
 <?php include 'header.php' ?>
-<div class="row">
-  <div class="main">
-    <h1>The place for all things film</h1>
-  </div>
-  <div class="side">
-    <img src="/images/stockphoto6.png" >
-  </div>
-</div>
 <div class="main-3">
   <h1>Latest Reviews</h1>
   <p><?php $lines = file('top3.txt'); foreach($lines as $line){echo $line;}?></p><br>
