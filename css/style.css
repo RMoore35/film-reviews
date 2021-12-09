@@ -13,6 +13,7 @@ body {
 
 .navbar {
   padding-top: 3em;
+  padding-bottom: 3em;
   text-align: center;
   background-color: #e0e7e7;
   flex: 80%;
